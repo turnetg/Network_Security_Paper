@@ -59,7 +59,7 @@
 
 
 \begin{document}
-\title{Analysis of 'When Malware is Packin' Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features'}
+\title[Static Analysis Limits of Packed Malware]{Analysis of 'When Malware is Packin' Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features'}
 %\titlenote{Produces the permission block, and
 %  copyright information}
 %\subtitle{This is a Draft}
@@ -72,9 +72,9 @@
   \institution{M14507785}
 }
 
-\author{Nathan Hafely}
+\author{Nathaniel Hafely}
 \affiliation{%
-  \institution{enter M number here} 
+  \institution{M14560068} 
 }
 
 %\author{G.K.M. Tobin}
@@ -202,10 +202,96 @@ To accurately train a classifier to determine between benign or malicious sample
 \section{Experiment Results and Analysis}
 \label{sec:results}
 
-This is the Experiment Results and Analysis Section.
+Does static analysis on packed binaries provide rich enough features to a malware classifier \cite{Aghakhani2020}? In order to help answer this question, the researchers determined a subset of questions that they then designed experiments to answer.
+
+\subsection{Effects of Packing Distribution During Training}
+Does a bias in the distribution of packers used in benign and malicious samples cause the classifier to learn specific packing routines as a sign of maliciousness \cite{Aghakhani2020}? To answer this question, the researchers designed three experiments.
+\paragraph{Experiment I: "no packed benign"}
+Using the Wild Dataset the classifier was trained on 3,956 packed malicious executables and 3,956 unpacked benign executables.
+The classifier was trained down to a false negative rate of 3.82\% and 2.64\% but when tested on 12,647 packed benign samples, this produced a false positive rate of 23.40\%.
+This shows that the classifier has a bias towards using packing as an indicator to distinguish if a sample is malicious.
+\paragraph{Experiment II: "packer classifier"}
+The Lab Dataset was used to create a classifier to distinguish between the nine different packers that were used when creating the this dataset.
+The classifier was trained on 107,471 samples that had an even distribution of each of the nine packers.
+When tested on a testing set of 46,059 samples, it was able to maintain a precision and recall percent of 99.99\% for each class.
+This shows that if samples from other studies did not have a lot of overlap in terms of packers on both their benign and malicious samples, then the classifier could have just been biased towards certain packers or packing routines.
+\paragraph{Experiment III: "good-bad packers"}
+To test the question that the previous experiment raised, the classifier was then trained on a new dataset where the benign samples were packed by four packers and the malicious samples were packed by the remaining five packers.
+The accuracy of this classifier was quite low and varied anywhere between 0.01\% and 12.57\%.
+This shows that the classifier is heavily biased to try and distinguish the maliciousness of a sample by the packer or packing routine that is used to pack that sample.
+
+Through this set of experiments, the researchers determined that the lack of overlap between packers used in benign and malicious samples will bias the classifier towards distinguishing between packing routines \cite{Aghakhani2020}.
+
+\subsection{Packers vs. Malware Classification}
+Do packers prevent machine-learning-based malware classifiers that leverage only static analysis features \cite{Aghakhani2020}? To answer this question, the researchers designed three experiments.
+\paragraph{Experiment IV: "different packed ratios (wild)"}
+In this experiment, the classifier was trained on a subset that included only packed benign, unpacked benign, and packed malicious samples.
+The classifier was trained on increasing ratios of packed benign samples.
+The results show that as the number of packed benign samples increased, then the false positive rate on packed samples decreased, but the false positive rate on unpacked benign samples increased from 3.18\% to 16.24\%.
+This shows that a classifier that is only trained on packed samples will not be able to accurately predict the maliciousness of unpacked samples.
+\paragraph{Experiment V: "different packed ratios (lab)"}
+This experiment was a repeat of the previous experiment but using the lab dataset combined with unpacked benign executables from the wild dataset.
+Increase in the ratio of packed benign samples decreased false positive rates for packed executables from 99.76\% to 16.03\%.
+This shows that classifiers without a high ratio of benign samples rely on detecting packing rather than malicious behavior.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Experiment_different_packed_ratios.PNG}
+    \caption{Different packed ratios.}
+    \label{tab:different_packed_ratios}
+\end{figure}
+\paragraph{Experiment VI: "single packer"}
+This experiment was to test if classifiers are detecting malicious behavior or specific packers.
+To do this the researchers trained and tested each packer individually.
+To determine how packers are preserving information, the researchers created a different model for each family of features.
+Each family was found to have relatively good success but, varied amongst different packers.
+
+Through this set of experiments, the researchers determined that packers preserve some information when packing programs that may be "useful" for malware classification, however, such information does not necessarily represent the real nature of samples \cite{Aghakhani2020}.
+\subsection{Malware Classification in Real-world Scenarios}
+Can a classifier that is carefully trained and not biased towards specific packing routines perform well in real-world scenarios \cite{Aghakhani2020}? To answer this question, the researchers split the question into three main problems.
+\subsubsection{Generalization}
+Classifiers may have poor performance against previously unseen packers. To explore this, the researchers designed three experiments.
+\paragraph{Experiment VII: "wild vs. packers"}
+Trained the classifier on a dataset with a “wild ratio” of packed benign samples extracted from the wild dataset, and tested it on the lab dataset.
+This performed poorly against all packers. This is because, the classifier chose features with more information gain but, while testing on the lab dataset, those features are no longer useful.
+Training with only the rich header brought accuracy up to over 90\%.
+\paragraph{Experiment VIII: "withheld packer"}
+This experiment involved several rounds of experiments on the lab dataset, withholding one packer from the training set and then evaluating the resulting classifier on packed executables generated by this packer.
+Excluding PECompact, tElock, and kkrunchy, there was relatively good performance. Byte n-grams features were withheld and directly responsible for the poor performance of these exceptions.
+\paragraph{Experiment IX: "lab against wild"}
+Trained on lab dataset and evaluated on packed executables in wild dataset.
+Benign and malicious executables were uniformly selected from packers to avoid bias.
+This had false negative and false positive rates of 41.84\%  7.27\% respectively.
+
+The researchers determined that, based on the results of these three experiments, when using static analysis features, the classifier is not guaranteed to generalize well to previously unseen packers \cite{Aghakhani2020}.
+
+\subsubsection{Strong \& Complete Encryption}
+The static features that these classifiers rely on could be removed during the packing process by malware authors. Despite this, can malware classifiers still be effective? To answer this question, the researches designed one experiment.
+\paragraph{Experiment X: "Strong \& Complete Encryption"}
+Trained and tested on executables packed with AES-Encrypter. There was an inflated accuracy due to file size, file entropy, and imbalanced dataset but, after fixing these issues the accuracy dropped from 72.67\% to 50\%.
+The researchers determined that when packing hides all information about the original binary until execution, the classifier has no choice but to classify any sample packed by such a packer as malicious \cite{Aghakhani2020}.
+\subsubsection{Adversarial Examples}
+Due to the potential vulnerability of adversarial examples, the researches as if it is possible to use the learned model to drive evasion? To answer this question, the researches designed one experiment.
+\paragraph{Experiment XI: "adversarial samples"}
+The classifier was trained on 3,956 unpacked benign, 3,956 packed benign, and 7,912 malicious executables.
+After training, the researchers generated adversarial samples from all 2,494 true positives by identifying byte n-gram and string features that occurred more in benign samples and injecting the corresponding bytes into the target program without affecting its behavior.
+The researchers determined that a more complex attack is needed when the classifier is trained using features extracted from dynamic analysis, which represent the sample's behavior \cite{Aghakhani2020}.
+
+After investigating these three main problems, the researchers determined that although static analysis features combined with machine learning can distinguish between packed benign and packed malicious samples, such a classifier will produce intolerable errors in real-world settings \cite{Aghakhani2020}.
+
+\subsection{Anti-malware Industry vs. Packers}
+How is the accuracy of real-world anti-malware engines that leverage machine learning combined with static analysis features affected by packers \cite{Aghakhani2020}? To answer this question, the researchers designed one experiment.
+\paragraph{Experiment XII: "anti-malware industry"}
+6,000 benign and 6,000 malicious executables packed with each packer from the lab dataset were sent to VirusTotal to evaluate six products on VirusTotal labeled as machine-learning-based malware detectors.
+Through this experiment, the researchers determined that machine-learning-based anti-malware engines on VirusTotal detect packing instead of maliciousness \cite{Aghakhani2020}.
 
 % Conclusioon and Discussion
 \section{Conclusion and Discussion}
+In this paper, the researchers investigated if static analysis on packed binaries provide a rich enough set of features to a malware classifier \cite{Aghakhani2020}?
+For further investigation, the researchers split the question in three and determined the following:
+The lack of overlap between packers used in benign and malicious samples will bias the classifier toward distinguishing between packing routines \cite{Aghakhani2020}.
+Packers preserve some information when packing programs that may be “useful” for malware classification, however, such information does not necessarily represent the real nature of samples \cite{Aghakhani2020}.
+Although static analysis features combined with machine learning can distinguish between packed benign and packed malicious samples, such a classifier will produce intolerable errors in real-world settings \cite{Aghakhani2020}.
+Overall, the researchers determined that all the discovered issues suggest that malware detection should be done using a hybrid approach leveraging both static and dynamic analysis \cite{Aghakhani2020}.
 \label{sec:conclusion}
 
 This is the Conclusion and Discussion Section. 
