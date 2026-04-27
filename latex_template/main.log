@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1798,7 +1798,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 140.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 140.
-<benign_and_malicious_prevalence.png, id=40, 205.36725pt x 70.46326pt>
+<benign_and_malicious_prevalence.png, id=48, 205.36725pt x 70.46326pt>
 File: benign_and_malicious_prevalence.png Graphic file (type png)
 <use benign_and_malicious_prevalence.png>
 Package pdftex.def Info: benign_and_malicious_prevalence.png  used on input lin
@@ -1809,44 +1809,74 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 154--155
  [][] 
  []
 
-(main.bbl [1.1{C:/Users/thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25
-tcsq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
-e/lbtn_76gpa5.enc}
+<raw_dataset.png, id=55, 200.54926pt x 129.48375pt>
+File: raw_dataset.png Graphic file (type png)
+<use raw_dataset.png>
+Package pdftex.def Info: raw_dataset.png  used on input line 177.
+(pdftex.def)             Requested size: 253.14749pt x 163.44475pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 177--178
+ [][] 
+ []
+
+[1.1{C:/Users/thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
+thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{
+C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76g
+pa5.enc}
 
 {C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
 77jq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
 e/lbtn_7grukw.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/libertine/lbtn_naooyc.enc} <./benign_and_malicious_prevalence.png>])
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 193.
- [2.2
+/libertine/lbtn_naooyc.enc} <./benign_and_malicious_prevalence.png>]
+<wild_dataset.png, id=71, 204.765pt x 75.8835pt>
+File: wild_dataset.png Graphic file (type png)
+<use wild_dataset.png>
+Package pdftex.def Info: wild_dataset.png  used on input line 185.
+(pdftex.def)             Requested size: 253.14749pt x 93.81897pt.
 
-] (main.aux)
+Overfull \hbox (12.0pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+<lab_dataset.png, id=74, 193.9245pt x 88.53075pt>
+File: lab_dataset.png Graphic file (type png)
+<use lab_dataset.png>
+Package pdftex.def Info: lab_dataset.png  used on input line 193.
+(pdftex.def)             Requested size: 253.14749pt x 115.56813pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 193--194
+ [][] 
+ []
+
+(main.bbl)
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 217.
+ [2.2 <./raw_dataset.png> <./wild_dataset.png> <./lab_dataset.png>]
+(main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F43C471711C6330987A160C53AAB5F77;882.
+(rerunfilecheck)             Checksum: 50F05039A4B3FEFF0762E66D1A623E3F;1279.
  ) 
 Here is how much of TeX's memory you used:
- 33983 strings out of 467871
- 624433 string characters out of 5418376
- 1062390 words of memory out of 5000000
- 61933 multiletter control sequences out of 15000+600000
- 708306 words of font info for 175 fonts, out of 8000000 for 9000
+ 34043 strings out of 467871
+ 625769 string characters out of 5418376
+ 1064390 words of memory out of 5000000
+ 61962 multiletter control sequences out of 15000+600000
+ 710712 words of font info for 193 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 109i,11n,132p,1003b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,132p,1010b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nBiolinumT.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /libertine/LinBiolinumTB.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/font
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/thoma/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/thoma/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on main.pdf (2 pages, 371434 bytes).
+Output written on main.pdf (2 pages, 428925 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 45134 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 45165 words of extra memory for PDF output out of 51595 (max. 10000000)
 

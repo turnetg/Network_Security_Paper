@@ -168,7 +168,35 @@ For their experiments, the researchers used samples exclusiuvely from the Window
 \section{Methodology}
 \label{sec:methodology}
 
-This is the Methodology Section.
+For the researchers to be able to accurately train a machine learning classifier to distinguish between a benign or malicious sample, they need lots of accurate data and independent features of each piece of data. The researchers also broke up the experiments into four different categories based upon what research question the results were answering. 
+
+\subsection{Building the Datasets}
+The researchers began building the dataset by collecting data from a commercial anti-malware vendor and a labeled dataset called EMBER. The data from these two sources was then placed into the four categores of unpacked benign, packed benign, unpacked malicious, and packed malicious \cite{Aghakhani2020}. From the commercial anti-malware vendor, they collected a total of 29,573 executables. All of the samples from this source were pre-labeled, so no further analysis had to be done to place these samples into the correct cateogry. From the EMBER dataset, they collected a total of 800,000 executables. But, this dataset was only labeled between if the sample was benign or malicious. So, 56,411 of the samples were taken and then entered into the commercial anti-malware vendor to further categorize them into either packed or unpacked. As seen below in figure 2, the the data from these two sources totals to 85,984 samples \cite{Aghakhani2020}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{raw_dataset.png}
+    \caption{Raw dataset collected from the commercial anti-malware vendor and the EMBER dataset.}
+    \label{tab:dataset}
+\end{figure}
+
+This data was then used to build the Wild Dataset. As the name suggests, this dataset is meant to be a representation of samples in the real world. This dataset was built by verifying all of the raw data that was collected to ensure that the labels were correct. To determine if the benign/malcious labels were correct, the researchers cross-referenced all of the samples to between VirusTotal, the anti-malware vendor, and the EMBER dataset. If there were any discrepancies between these three sources, then those samples were discarded. Using this method, a total of 4,113 samples were discarded \cite{Aghakhani2020}. To verify that the packed/unpacked labels were accurate, the researchers compared all of the samples against the anti-malware vendor, Deep Packer Inspector (dpi), and various other malware tools (as can be seen in Figure 3). From this analysis, 31,147 samples were discarded \cite{Aghakhani2020}. This narrowed down wild dataset to a total of 50,724 samples.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{wild_dataset.png}
+    \caption{Packers Used to Verify the Packed/Unpacked Labels on Wild Dataset.}
+    \label{tab:wild_dataset}
+\end{figure}
+
+Next, the researchers built a separate dataset called Lab Dataset. This dataset consisted of all of the samples in the Wild Dataset, but packed by nine different known packers. Some of the samples were not able to be packed by all of the packers, so those samples were discarded \cite{Aghakhani2020}. This resulted in the Lab Dataset having a total of 341,444 samples (shown in Figure 4) \cite{Aghakhani2020}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{lab_dataset.png}
+    \caption{Packers Used to Build the Lab Dataset.}
+    \label{tab:lab_dataset}
+\end{figure}
+
+\subsection{Identifying the Features}
+To accurately train a classifier to determine between benign or malicious samples, you need good features to train the classifier on. The researchers identified nine different sections of the samples to grab the features from. These sections were PE Headers (28 features), PE Sections (570 features), DLL Imports (4,305 features), API Imports (19,168 features), Rich Header (66 features), Byte n-grams (13,000 features), Opcode n-grams (2,500 features), Strings (16,900 features), and File Generic (small number of features) \cite{Aghakhani2020}. All of these sections represent important aspects of the samples that can be used to decipher some of the functionality of the program. 
 
 % Experiment Results and Analysis
 \section{Experiment Results and Analysis}
