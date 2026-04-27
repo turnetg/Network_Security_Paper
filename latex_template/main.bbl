@@ -1,0 +1,190 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{Big}{[n. d.]}]%
+        {Bigquery}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock   (\bibinfo{year}{[n. d.]}).
+\newblock
+\showURL{%
+\url{https://github.com/google/encrypted-bigquery-client}}
+
+
+\bibitem[\protect\citeauthoryear{Boneh and Waters}{Boneh and Waters}{2007}]%
+        {BW07}
+\bibfield{author}{\bibinfo{person}{Dan Boneh} {and} \bibinfo{person}{Brent
+  Waters}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{Conjunctive, Subset, and Range Queries on
+  Encrypted Data}}. In \bibinfo{booktitle}{{\em {the Proceedings of Theory of
+  Cryptography (TCC)}}}. \bibinfo{publisher}{Springer-Verlag},
+  \bibinfo{pages}{535--554}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cash, Jaeger, Jarecki, Jutla, Krawczyk, Rosu,
+  and Steiner}{Cash et~al\mbox{.}}{2014}]%
+        {CJJJKRS14}
+\bibfield{author}{\bibinfo{person}{David Cash}, \bibinfo{person}{Joseph
+  Jaeger}, \bibinfo{person}{Stanislaw Jarecki}, \bibinfo{person}{Charanjit
+  Jutla}, \bibinfo{person}{Hugo Krawczyk}, \bibinfo{person}{Marcel-Catalin
+  Rosu}, {and} \bibinfo{person}{Michael Steiner}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{Dynamic Searchable Encryption in Very-Large
+  Databases: Data Structures and Implementation}}. In \bibinfo{booktitle}{{\em
+  {Proc. of NDSS'14}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cash, Jarecki, Jutla, Krawczyk, Rosu, and
+  Steiner}{Cash et~al\mbox{.}}{2013}]%
+        {CJJKRS13}
+\bibfield{author}{\bibinfo{person}{David Cash}, \bibinfo{person}{Stanislaw
+  Jarecki}, \bibinfo{person}{Charanjit Jutla}, \bibinfo{person}{Hugo Krawczyk},
+  \bibinfo{person}{Marcel-Catalin Rosu}, {and} \bibinfo{person}{Michael
+  Steiner}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Highly-Scalable Searchable Symmetric Encryption
+  with Support for Boolean Queries }}. In \bibinfo{booktitle}{{\em {Proc. of
+  CRYPTO'13}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Curtmola, Garay, Kamara, and
+  Ostrovsky}{Curtmola et~al\mbox{.}}{2006}]%
+        {CGKO06}
+\bibfield{author}{\bibinfo{person}{Reza Curtmola}, \bibinfo{person}{Juan~A.
+  Garay}, \bibinfo{person}{Seny Kamara}, {and} \bibinfo{person}{Rafail
+  Ostrovsky}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{Searchable Symmetric Encryption: Improved
+  Definitions and Efficient Constructions}}. In \bibinfo{booktitle}{{\em {Proc.
+  of ACM CCS'06}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kamara and Papamanthou}{Kamara and
+  Papamanthou}{2013}]%
+        {KP13}
+\bibfield{author}{\bibinfo{person}{Seny Kamara} {and}
+  \bibinfo{person}{Charalampos Papamanthou}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Parallel and Dynamic Searchable Symmetric
+  Encryption}}. In \bibinfo{booktitle}{{\em {Proc. of FC}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kamara, Papamanthou, and Roeder}{Kamara
+  et~al\mbox{.}}{2012}]%
+        {KPR12}
+\bibfield{author}{\bibinfo{person}{Seny Kamara}, \bibinfo{person}{Charalampos
+  Papamanthou}, {and} \bibinfo{person}{Tom Roeder}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Dynamic Searchable Symmetric Encryption}}. In
+  \bibinfo{booktitle}{{\em {Proc. of ACM CCS'12}}}. \bibinfo{pages}{965--976}.
+\newblock
+\showISBNx{978-1-4503-1651-4}
+
+
+\bibitem[\protect\citeauthoryear{Kerschbaum and Tueno}{Kerschbaum and
+  Tueno}{2017}]%
+        {KT17}
+\bibfield{author}{\bibinfo{person}{Florian Kerschbaum} {and}
+  \bibinfo{person}{Anselme Tueno}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{An Efficiently Searchable Encrypted Data Structure
+  for Range Queries}}.  (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{{https://arxiv.org/abs/1709.09314}.}
+
+
+\bibitem[\protect\citeauthoryear{Lu}{Lu}{2012}]%
+        {Lu12}
+\bibfield{author}{\bibinfo{person}{Yanbin Lu}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Privacy-Preserving Logarithmic-time Search on
+  Encrypted Data in Cloud}}. In \bibinfo{booktitle}{{\em {Proc. of NDSS'12}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pappas, Krell, Vo, Kolesnikov, Malkin, Choi,
+  George, Keromytis, and Bellovin}{Pappas et~al\mbox{.}}{2014}]%
+        {PKVKMCGKB14}
+\bibfield{author}{\bibinfo{person}{Vasilis Pappas}, \bibinfo{person}{Fernando
+  Krell}, \bibinfo{person}{Binh Vo}, \bibinfo{person}{Vladimir Kolesnikov},
+  \bibinfo{person}{Tal Malkin}, \bibinfo{person}{Seung~Geol Choi},
+  \bibinfo{person}{Wesley George}, \bibinfo{person}{Angelos Keromytis}, {and}
+  \bibinfo{person}{Steven Bellovin}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{Blind Seer: A Searchable Private DBMS}}. In
+  \bibinfo{booktitle}{{\em {Proc. of IEEE S\&P'14}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Popa, Redfield, Zeldovich, and
+  Balakrishnan}{Popa et~al\mbox{.}}{2011}]%
+        {PRZB11}
+\bibfield{author}{\bibinfo{person}{Raluca~Ada Popa},
+  \bibinfo{person}{Catherine~M.S. Redfield}, \bibinfo{person}{Nickolai
+  Zeldovich}, {and} \bibinfo{person}{Hari Balakrishnan}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{CryptDB: Protecting Confidentiality with Encrypted
+  Query Processing}}. In \bibinfo{booktitle}{{\em {Proc. of ACM SOSP'11}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shi, Bethencourt, Chan, Song, and Perrig}{Shi
+  et~al\mbox{.}}{2007}]%
+        {SBCSP07}
+\bibfield{author}{\bibinfo{person}{Elaine Shi}, \bibinfo{person}{John
+  Bethencourt}, \bibinfo{person}{T-H.~Hubert Chan}, \bibinfo{person}{Dawn
+  Song}, {and} \bibinfo{person}{Adrian Perrig}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{Multi-Dimensional Range Query over Encrypted
+  Data}}. In \bibinfo{booktitle}{{\em {Proc. of IEEE S\&P'07}}}.
+  \bibinfo{pages}{350--364}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Song, Wagner, and Perrig}{Song
+  et~al\mbox{.}}{2000}]%
+        {SWP00}
+\bibfield{author}{\bibinfo{person}{Dawn Song}, \bibinfo{person}{David Wagner},
+  {and} \bibinfo{person}{Adrian Perrig}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{{Practical Techniques for Searches on Encrypted
+  Data}}. In \bibinfo{booktitle}{{\em {Proc. of IEEE S\&P'00}}}.
+\newblock
+
+
+\end{thebibliography}
