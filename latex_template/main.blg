@@ -7,88 +7,50 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: main.bib
-Warning--entry type for "Bigquery" isn't style-file defined
---line 272 of file main.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--no key, author in Bigquery
-Warning--no author, editor, organization, or key in Bigquery
-Warning--to sort, need author or key in Bigquery
-Warning--no key, author in Bigquery
-Warning--no key, author in Bigquery
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--no key, author in Bigquery
-Warning--no author, editor, organization, or key in Bigquery
-Warning--empty author in Bigquery
-Warning--empty year in Bigquery
-Warning--empty address in BW07
-Warning--empty publisher in CJJJKRS14
-Warning--empty address in CJJJKRS14
-Warning--page numbers missing in both pages and numpages fields in CJJJKRS14
-Warning--empty publisher in CJJKRS13
-Warning--empty address in CJJKRS13
-Warning--page numbers missing in both pages and numpages fields in CJJKRS13
-Warning--empty publisher in CGKO06
-Warning--empty address in CGKO06
-Warning--page numbers missing in both pages and numpages fields in CGKO06
-Warning--empty publisher in KP13
-Warning--empty address in KP13
-Warning--page numbers missing in both pages and numpages fields in KP13
-Warning--empty publisher in KPR12
-Warning--empty address in KPR12
-Warning--numpages field, but no articleno or eid field, in KPR12
-Warning--empty publisher in Lu12
-Warning--empty address in Lu12
-Warning--page numbers missing in both pages and numpages fields in Lu12
-Warning--empty publisher in PKVKMCGKB14
-Warning--empty address in PKVKMCGKB14
-Warning--page numbers missing in both pages and numpages fields in PKVKMCGKB14
-Warning--empty publisher in PRZB11
-Warning--empty address in PRZB11
-Warning--page numbers missing in both pages and numpages fields in PRZB11
-Warning--empty publisher in SBCSP07
-Warning--empty address in SBCSP07
-Warning--empty publisher in SWP00
-Warning--empty address in SWP00
-Warning--page numbers missing in both pages and numpages fields in SWP00
-You've used 13 entries,
+Warning--empty publisher in Aghakhani2020
+Warning--empty address in Aghakhani2020
+Warning--page numbers missing in both pages and numpages fields in Aghakhani2020
+You've used 1 entry,
             5758 wiz_defined-function locations,
-            1384 strings with 17463 characters,
-and the built_in function-call counts, 15278 in all, are:
-= -- 1455
-> -- 649
+            1313 strings with 15610 characters,
+and the built_in function-call counts, 1004 in all, are:
+= -- 85
+> -- 20
 < -- 0
-+ -- 204
-- -- 271
-* -- 1170
-:= -- 1584
-add.period$ -- 57
-call.type$ -- 13
-change.case$ -- 100
-chr.to.int$ -- 13
-cite$ -- 56
-duplicate$ -- 1383
-empty$ -- 972
-format.name$ -- 264
-if$ -- 3432
++ -- 4
+- -- 8
+* -- 50
+:= -- 95
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 1
+cite$ -- 4
+duplicate$ -- 107
+empty$ -- 75
+format.name$ -- 8
+if$ -- 216
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 55
-newline$ -- 136
-num.names$ -- 96
-pop$ -- 699
+missing$ -- 5
+newline$ -- 47
+num.names$ -- 8
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 211
+purify$ -- 14
 quote$ -- 0
-skip$ -- 469
+skip$ -- 35
 stack$ -- 0
-substring$ -- 1049
-swap$ -- 89
-text.length$ -- 103
+substring$ -- 57
+swap$ -- 5
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 390
-warning$ -- 39
-while$ -- 74
+type$ -- 30
+warning$ -- 3
+while$ -- 8
 width$ -- 0
-write$ -- 243
-(There were 40 warnings)
+write$ -- 54
+(There were 3 warnings)

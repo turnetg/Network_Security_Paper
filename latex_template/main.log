@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1799,123 +1799,55 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 8.
+<benign_and_malicious_prevalence.png, id=40, 205.36725pt x 70.46326pt>
+File: benign_and_malicious_prevalence.png Graphic file (type png)
+<use benign_and_malicious_prevalence.png>
+Package pdftex.def Info: benign_and_malicious_prevalence.png  used on input lin
+e 15.
+(pdftex.def)             Requested size: 253.14749pt x 86.85957pt.
 
-
-(C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-
-(C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
-)
-(related.tex) (conclusion.tex) (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
-[]\T1/LinuxLibertineT-TLF/m/n/7 (+20) Florian Ker-schbaum and Anselme Tueno. 20
-17.  An Ef-fi-ciently
+Overfull \hbox (12.0pt too wide) in paragraph at lines 15--16
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
-\T1/LinuxLibertineT-TLF/m/n/7 (+20) Search-able En-crypted Data Struc-ture for 
-Range Queries. (2017).
- []
-
-) [1.1{C:/Users/thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/User
-s/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
-}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7
-6gpa5.enc}
+) (related.tex) (conclusion.tex) (main.bbl [1.1{C:/Users/thoma/AppData/Local/Mi
+KTeX/fonts/map/pdftex/pdftex.map}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/
+fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/thoma/AppData/Local/Program
+s/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
 
 {C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
-77jq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
-ata/i4-t1-4.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-ibertine/lbtn_oexx6f.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/en
-c/dvips/libertine/lbtn_7grukw.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX
-/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] (main.aux)
+77jq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
+e/lbtn_7grukw.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/libertine/lbtn_naooyc.enc} <./benign_and_malicious_prevalence.png>])
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 151.
+ [2.2
+
+] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 58A726A2A9487DB3ED9411B587534E4A;792
-(rerunfilecheck)             After:  A078F336F3E19351E396849C4D53AB46;708.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: FDEDED81A8532FA249624B6CA626B1EC;708.
  ) 
 Here is how much of TeX's memory you used:
- 34179 strings out of 467871
- 628304 string characters out of 5418376
- 1065390 words of memory out of 5000000
- 62078 multiletter control sequences out of 15000+600000
- 715597 words of font info for 203 fonts, out of 8000000 for 9000
+ 33991 strings out of 467871
+ 624782 string characters out of 5418376
+ 1062390 words of memory out of 5000000
+ 61938 multiletter control sequences out of 15000+600000
+ 707760 words of font info for 171 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 109i,11n,132p,1003b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
- replaced by a fixed one
-
-<C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/In
-consolata-zi4r.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/newtx/LibertineMathMI.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/thoma/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/thoma/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/U
-sers/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibert
-ineTI.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newt
-x/txsys.pfb>
-Output written on main.pdf (1 page, 325215 bytes).
+ 109i,11n,132p,1003b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
+nBiolinumT.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/libertine/LinBiolinumTB.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/font
+s/type1/public/libertine/LinLibertineT.pfb><C:/Users/thoma/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/thoma/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
+Output written on main.pdf (2 pages, 369805 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 49745 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 45134 words of extra memory for PDF output out of 51595 (max. 10000000)
 
