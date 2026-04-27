@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.27)  27 APR 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1809,15 +1809,20 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 154--155
  [][] 
  []
 
-(main.bbl) [1.1{C:/Users/thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map
-}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_2
-5tcsq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/liberti
-ne/lbtn_76gpa5.enc}
+(main.bbl [1.1{C:/Users/thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25
+tcsq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
+e/lbtn_76gpa5.enc}
 
 {C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
 77jq.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
 e/lbtn_7grukw.enc}{C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/libertine/lbtn_naooyc.enc} <./benign_and_malicious_prevalence.png>] (main.aux)
+/libertine/lbtn_naooyc.enc} <./benign_and_malicious_prevalence.png>])
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 193.
+ [2.2
+
+] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1826,21 +1831,22 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F43C471711C6330987A160C53AAB5F77;882.
  ) 
 Here is how much of TeX's memory you used:
- 33958 strings out of 467871
- 623826 string characters out of 5418376
- 1061390 words of memory out of 5000000
- 61931 multiletter control sequences out of 15000+600000
- 701389 words of font info for 161 fonts, out of 8000000 for 9000
+ 33983 strings out of 467871
+ 624433 string characters out of 5418376
+ 1062390 words of memory out of 5000000
+ 61933 multiletter control sequences out of 15000+600000
+ 708306 words of font info for 175 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 109i,11n,132p,1003b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,132p,1003b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
-nBiolinumTB.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/libertine/LinLibertineT.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/thoma/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on main.pdf (1 page, 331075 bytes).
+nBiolinumT.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/libertine/LinBiolinumTB.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/font
+s/type1/public/libertine/LinLibertineT.pfb><C:/Users/thoma/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/thoma/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
+Output written on main.pdf (2 pages, 371434 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 41038 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 45134 words of extra memory for PDF output out of 51595 (max. 10000000)
 

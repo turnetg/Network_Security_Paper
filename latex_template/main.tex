@@ -140,7 +140,7 @@
 \section{Introduction}
 \label{sec:intro}
 
-With the rise of machine learning and artificual intelligence in recent years, many malware analaysis experts have begun to research how these new tools can be used in their field. Many papers have begun to be published on the topic of using machine learning classifiers to distinguish between packed benign and packed malicious samples. The paper that we analyzed aims to verify the accuracy of these tests and see for themselves if machine learning can indeed be used to distinguish the maliciousness of packed samples based on static features alone \cite{Aghakhani2020}. 
+With the rise of machine learning and artificual intelligence in recent years, many malware analysis experts have begun to research how these new tools can be used in their field. Many papers have begun to be published on the topic of using machine learning classifiers to distinguish between packed benign and packed malicious samples. The paper that we analyzed aims to verify the accuracy of these tests and see for themselves if machine learning can indeed be used to distinguish the maliciousness of packed samples based on static features alone \cite{Aghakhani2020}. 
 
 Creating tools to automatically detect if a sample is malicious or not is very sought after in the malware field. Currently the best and most effective way to determine if a sample is malicious is to have an expert analyzing it using various static and dynamic analysis tools. This process entails placing the malware in an isolated environment and analyuzing the static features such as imports, strings, and assembly code without running the code. Then the analyst will run debug the code to see any registry key changes, file system changes, or network connections the sample is attempting to make. This process can be very tedious and can take an expert a long time to complete.
 
@@ -162,7 +162,7 @@ Through their experiments, the researchers show that packing routines do perserv
 \section{System/Threat Model}
 \label{sec:system}
 
-This is the System/Threat Model section.
+For their experiments, the researchers used samples exclusiuvely from the Windows x86 operating system. The samples can be broken up into four unique categories: unpacked benign, packed benign, unpacked malicious, and packed malicious \cite{Aghakhani2020}. For each individual experiment, the data was broken up into a training set and a testing set. The type of classiifer that was used for the analysis was a random forest model. Additionally, the classifier was trained on nine different sets of features in the samples (PE Headers, PE Sections, DLL Imports, API Imports, Rich Header, Byte n-grams, Opcode n-grams, Strings, File Generic) \cite{Aghakhani2020}. 
 
 % Methodology
 \section{Methodology}
